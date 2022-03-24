@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +7,13 @@
     font-family: 'poppins', sans-serif;
 }
 body {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     min-height: 100vh;
     background: #333;
+    overflow: hidden;
 }
 ul {
     list-style: none;
@@ -19,6 +21,8 @@ ul {
 a {
     text-decoration: none;
 }
+            /*cursor animation*/
+
             /*slider start*/
 .profile-photo {
     width: 120px;
@@ -62,6 +66,27 @@ a {
 .slider ul li a {
     color:#fff;
 }
+            /* home start*/
+.h-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+}
+.h-wrapper div h3 {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+}
+.h-wrapper div h3 span {
+    color: #3586ff;
+    font-family: 'Nunito', sans-serif;
+}
+.h-wrapper div p {
+    color: #89aee5;
+    font-family: 'Nunito', sans-serif;
+}
+
             /* footer start */
 footer {
     position: relative;
