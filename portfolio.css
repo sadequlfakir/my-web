@@ -38,6 +38,9 @@ a {
     width: 100%;
     height: 100%;
 }
+.portfoli {
+    background: #333;
+}
 .slider {
     z-index: 10;
     position: absolute;
