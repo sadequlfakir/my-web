@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: #333;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+            /*slider start*/
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    margin-top: 8px !important;
+    margin: auto;
+    background-color: #333;
+    border-radius: 50%;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.43)
+    ;
+}
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+}
+.slider {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 75%;
+    background-color: #3586ff;
+    text-align: center;
+    clip-path: circle(88.7% at 15% 16%);
+
+}
+.slider ul {
+    padding-top: 8px;
+}
+.slider ul li {
+    padding: 8px;
+    width: 95%;
+    margin: auto;
+    transition: 0.9s;
+
+}
+.slider ul li:hover {
+    background: #333;
+}
+.slider ul li a {
+    color:#fff;
+}
+            /* footer start */
+footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer .social-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+footer .social-icon li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social-icon li a:hover {
+    transform: translateY(-10px);
+}
+footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(./assets/image/wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite;
+}
+footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave-02 4s linear infinite;
+}
+footer .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave 3s linear infinite;
+}
+footer .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave-02 3s linear infinite;
+}
+@keyframes animatewave {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+@keyframes animatewave-02 {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
