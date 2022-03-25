@@ -85,6 +85,7 @@ a {
 .project img {
     max-width: 309.6px; 
     height: 250px;
+    border-radius: 10px;
 }
 .name-use h3 {
     color: #3586ff;
