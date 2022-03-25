@@ -42,12 +42,12 @@ a {
     background: #333;
 }
 .slider {
-    z-index: 10;
+    z-index: 2000;
     position: absolute;
     top: 0;
     left: 0;
     width: 250px;
-    height: 75%;
+    height: 485px;
     background-color: #3586ff;
     text-align: center;
     clip-path: circle(88.7% at 15% 16%);
@@ -71,6 +71,7 @@ a {
 }
             /* home start*/
 .h-wrapper {
+    z-index: 2000;
     position: absolute;
     top: 30%;
     left: 30%;
@@ -82,7 +83,7 @@ a {
     font-size: 3rem;
 }
 .h-wrapper div h3 span {
-    color: #3586ff;
+    color: #89aee5;
     font-family: 'Nunito', sans-serif;
 }
 .h-wrapper div p {
@@ -166,5 +167,12 @@ footer .wave#wave4 {
     }
     100% {
         background-position-x: 1000px;
+    }
+}
+
+
+@media (max-width:765px) {
+    .slider {
+        display: none;
     }
 }

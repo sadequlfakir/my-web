@@ -8,9 +8,6 @@
 }
 body {
     position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     min-height: 100vh;
     background: #333;
     overflow: hidden;
@@ -24,10 +21,12 @@ a {
             /*cursor animation*/
 
             /*slider start*/
+.p-i-head {
+    padding-top: 10px;
+}
 .profile-photo {
     width: 120px;
     height: 120px;
-    margin-top: 8px !important;
     margin: auto;
     background-color: #333;
     border-radius: 50%;
@@ -42,15 +41,13 @@ a {
     background: #333;
 }
 .slider {
-    z-index: 10;
-    position: absolute;
-    top: 0;
-    left: 0;
+    z-index: 2000;
     width: 250px;
-    height: 75%;
+    height: 490px;
     background-color: #3586ff;
     text-align: center;
     clip-path: circle(88.7% at 15% 16%);
+    margin-bottom: 50px;
 
 }
 .slider ul {
@@ -91,7 +88,7 @@ a {
 }
 
             /* footer start */
-footer {
+footer .footer-con{
     position: relative;
     width: 100%;
     background: #3586ff;
