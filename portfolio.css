@@ -71,6 +71,13 @@ a {
 .slider ul li a {
     color:#fff;
 }
+.social-icon {
+    display: flex;
+    font-size: 25px;
+}
+.slider .social-icon li:hover {
+    background: none !important;
+}
             /* home start*/
 
 .all-project-wrapper-con {
@@ -93,5 +100,5 @@ a {
 }
 .name-use p {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
