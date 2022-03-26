@@ -87,3 +87,12 @@ a {
     margin: 120px 20px;
     width: 100%;
 }
+.about {
+    display: flex;
+    margin-top: 15px;
+}
+.about ul li {
+    color: #b7d2fa;
+    font-size: 20px;
+    padding: 5px 0;
+}
