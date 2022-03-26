@@ -91,8 +91,26 @@ a {
     display: flex;
     margin-top: 15px;
 }
+.about-text {
+    display: flex;
+}
+.h-wrapper-con h3 {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+.h-wrapper-con h3 span {
+    color: #4589f0;
+    font-family: 'Nunito', sans-serif;
+}
+.h-wrapper-con p {
+    color: #89aee5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
 .about ul li {
     color: #b7d2fa;
-    font-size: 20px;
-    padding: 5px 0;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
